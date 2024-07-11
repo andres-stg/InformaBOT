@@ -2,10 +2,10 @@
   key: {
     remoteJid: '584243573119@s.whatsapp.net',
     fromMe: false,
-    id: 'A393F6478638C402819BADB3FAD2EC93',
+    id: '8E76FAA3AFAC4A3AA554AFE0758930B0',
     participant: undefined
   },
-  messageTimestamp: 1720582381,
+  messageTimestamp: 1720709606,
   pushName: 'Andrés Torres',
   broadcast: false,
   message: Message {
@@ -19,9 +19,9 @@
   from: '584243573119'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_2caf7543-cb44-4a50-b680-0f34a77cc17e',
-  keyword: 'key_11a8d859-df6f-4357-aafb-f798b5a22637',
-  answer: '🙌 ¡Hola! Bienvenido al *Datavenger* 🦸🏽‍♀🦸🏻‍♂ de la *República TV*',
+  ref: 'ans_db016885-6873-42b0-95e1-113dfee3c640',
+  keyword: 'key_36f29fdd-c475-4cde-b4bb-46965adf85aa',
+  answer: '🙌 ¡Hola! Soy DatAvenger🦸🏽‍♀🦸🏻‍♂, tu aliado contra la desinformación creado por La República TV',
   options: {
     media: null,
     buttons: [],
@@ -34,12 +34,12 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'a45b798e3f18c92b499e24076a465c52'
+  refSerialize: '674f03bc8bc5393ed7a0964902d48f16'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_4da2fb39-25ba-46e9-b93c-a6cc243f32f2',
-  keyword: 'ans_2caf7543-cb44-4a50-b680-0f34a77cc17e',
-  answer: 'Nuestro objetivo es garantizar el *libre*, *verídico* y *confiable* acceso a la información ✅',
+  ref: 'ans_3f7c624d-f787-4980-930d-4ec9da397cdf',
+  keyword: 'ans_db016885-6873-42b0-95e1-113dfee3c640',
+  answer: 'Mi misión es garantizarte un libre, verídico y confiable acceso a la información pública ✅',
   options: {
     media: null,
     buttons: [],
@@ -52,12 +52,12 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'e00f311df2badcaa38f1ef0c77943cd4'
+  refSerialize: '9a12376959804beedd4fdf047dc3767e'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_a05df7a0-343c-4c4e-933a-0b192ff92d37',
-  keyword: 'ans_4da2fb39-25ba-46e9-b93c-a6cc243f32f2',
-  answer: '➡ Será posible *enviar esos datos que te tienen dudando*, y nuestro equipo _verificará si son ciertos_ o _te quieren ver la cara_ 🤡',
+  ref: 'ans_6abb23c9-c2a2-41ee-a198-35eeffbdb603',
+  keyword: 'ans_3f7c624d-f787-4980-930d-4ec9da397cdf',
+  answer: '➡ Acá podrás enviar esos datos que te tienen dudando, y nuestro equipo verificará si son ciertos o te quieren ver la cara 🤡',
   options: {
     media: null,
     buttons: [],
@@ -70,12 +70,12 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'cebd20089692c409abc6c8f0135c7708'
+  refSerialize: 'cabe1688fbbc34705522c1be2107d15b'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_429752e7-be5d-409e-b54f-75cf55796f11',
-  keyword: 'ans_a05df7a0-343c-4c4e-933a-0b192ff92d37',
-  answer: '➡ Podrás sugerirnos temas que quieres que investiguemos',
+  ref: 'ans_3a26edd6-ab0d-413d-8973-41af61436a80',
+  keyword: 'ans_6abb23c9-c2a2-41ee-a198-35eeffbdb603',
+  answer: '➡También podrás sugerirme temas que quieres que investigue ',
   options: {
     media: null,
     buttons: [],
@@ -88,12 +88,12 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '968eeae613591086b4f5e02d486fa510'
+  refSerialize: '48ed0d2853c061e0c5d4cbd1d3028085'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_64ac5b26-510b-4d73-b546-f4227cf7996d',
-  keyword: 'ans_429752e7-be5d-409e-b54f-75cf55796f11',
-  answer: '➡ Y tendrás la oportunidad de hacer nuestro *curso exprés* para que estés preparado para *combatir la desinformación* y seas un *#HeroeXLaInformación* 🦸🏻‍♂🦸🏽‍♀',
+  ref: 'ans_efc3bd78-a1c0-4c3d-8bb5-d69ee274f330',
+  keyword: 'ans_3a26edd6-ab0d-413d-8973-41af61436a80',
+  answer: '➡ Y además tendrás la oportunidad de hacer el curso express para combatir la desinformación y convertirte en un #HeroeXLaInformación 🦸🏻‍♂🦸🏽‍♀',
   options: {
     media: null,
     buttons: [],
@@ -106,11 +106,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '9a3426dde5bfaf0fd7c1e0d2af10cbe3'
+  refSerialize: '7fe77f6841e78e61ebc0279670b903e6'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_072092ee-71ad-40ff-9967-88b353af60f5',
-  keyword: 'ans_64ac5b26-510b-4d73-b546-f4227cf7996d',
+  ref: 'ans_95efc6cc-27ae-4019-bbf0-2376e98aa435',
+  keyword: 'ans_efc3bd78-a1c0-4c3d-8bb5-d69ee274f330',
   answer: '🤖 ¿En qué podemos ayudarte? Escribe *República* para ver las opciones',
   options: {
     media: null,
@@ -124,16 +124,16 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '6ba151df3875b77cec5ce2d39368d507'
+  refSerialize: '8c18ed53468a11a10f15ea12083c8b30'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '584243573119@s.whatsapp.net',
     fromMe: false,
-    id: '1A10ED5A36B79B6355B52BFE34029890',
+    id: '0F51A22CE6AF16AA47E61CB88D1ACFAA',
     participant: undefined
   },
-  messageTimestamp: 1720582390,
+  messageTimestamp: 1720709633,
   pushName: 'Andrés Torres',
   broadcast: false,
   message: Message {
@@ -150,10 +150,10 @@
   key: {
     remoteJid: '584243573119@s.whatsapp.net',
     fromMe: false,
-    id: '32BBB09033399F23CB99BD8F98D14B8A',
+    id: '8F6E77DC84B9D09C1FC7303F9B9CD63B',
     participant: undefined
   },
-  messageTimestamp: 1720582397,
+  messageTimestamp: 1720709639,
   pushName: 'Andrés Torres',
   broadcast: false,
   message: Message {
@@ -170,90 +170,10 @@
   key: {
     remoteJid: '584243573119@s.whatsapp.net',
     fromMe: false,
-    id: 'AB7DD01E44EA7EB647D43EAA3B775705',
+    id: '487D9E1B5244C75A3A209340E1C3334C',
     participant: undefined
   },
-  messageTimestamp: 1720582400,
-  pushName: 'Andrés Torres',
-  broadcast: false,
-  message: Message {
-    conversation: '3',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '3',
-  from: '584243573119'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '584243573119@s.whatsapp.net',
-    fromMe: false,
-    id: '7DC8150188F2756F635D822B52F13321',
-    participant: undefined
-  },
-  messageTimestamp: 1720582404,
-  pushName: 'Andrés Torres',
-  broadcast: false,
-  message: Message {
-    conversation: '3',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '3',
-  from: '584243573119'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '584243573119@s.whatsapp.net',
-    fromMe: false,
-    id: '56C0D21EF4C5D39FAD5BC0434DC9B650',
-    participant: undefined
-  },
-  messageTimestamp: 1720582407,
-  pushName: 'Andrés Torres',
-  broadcast: false,
-  message: Message {
-    conversation: '4',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '4',
-  from: '584243573119'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '584243573119@s.whatsapp.net',
-    fromMe: false,
-    id: '5FF574EDFD0EC65D6866B95DD34CE7B7',
-    participant: undefined
-  },
-  messageTimestamp: 1720582414,
-  pushName: 'Andrés Torres',
-  broadcast: false,
-  message: Message {
-    conversation: '4',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '4',
-  from: '584243573119'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '584243573119@s.whatsapp.net',
-    fromMe: false,
-    id: 'B2973269FDA4CE2A9E449FD40D1BE0E6',
-    participant: undefined
-  },
-  messageTimestamp: 1720582423,
+  messageTimestamp: 1720709645,
   pushName: 'Andrés Torres',
   broadcast: false,
   message: Message {
@@ -270,10 +190,10 @@
   key: {
     remoteJid: '584243573119@s.whatsapp.net',
     fromMe: false,
-    id: '2744047687F5F8CE9C9588EEC9498144',
+    id: 'C1E55C27D139151B4AB0026D8C22AD9B',
     participant: undefined
   },
-  messageTimestamp: 1720582427,
+  messageTimestamp: 1720709649,
   pushName: 'Andrés Torres',
   broadcast: false,
   message: Message {
@@ -285,309 +205,4 @@
   },
   body: 'República',
   from: '584243573119'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '584243573119@s.whatsapp.net',
-    fromMe: false,
-    id: 'A69FD7AD4AD2DF3F7A4CC9D1615FD318',
-    participant: undefined
-  },
-  messageTimestamp: 1720582435,
-  pushName: 'Andrés Torres',
-  broadcast: false,
-  message: Message {
-    conversation: '1',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '1',
-  from: '584243573119'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '584243573119@s.whatsapp.net',
-    fromMe: false,
-    id: '1A89992542F013A4A4A94A0DA1B4BB57',
-    participant: undefined
-  },
-  messageTimestamp: 1720582437,
-  pushName: 'Andrés Torres',
-  broadcast: false,
-  message: Message {
-    conversation: 'Datavenger',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Datavenger',
-  from: '584243573119'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_2caf7543-cb44-4a50-b680-0f34a77cc17e',
-  keyword: 'key_11a8d859-df6f-4357-aafb-f798b5a22637',
-  answer: '🙌 ¡Hola! Bienvenido al *Datavenger* 🦸🏽‍♀🦸🏻‍♂ de la *República TV*',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 1000,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'a45b798e3f18c92b499e24076a465c52'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_4da2fb39-25ba-46e9-b93c-a6cc243f32f2',
-  keyword: 'ans_2caf7543-cb44-4a50-b680-0f34a77cc17e',
-  answer: 'Nuestro objetivo es garantizar el *libre*, *verídico* y *confiable* acceso a la información ✅',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 1000,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'e00f311df2badcaa38f1ef0c77943cd4'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_a05df7a0-343c-4c4e-933a-0b192ff92d37',
-  keyword: 'ans_4da2fb39-25ba-46e9-b93c-a6cc243f32f2',
-  answer: '➡ Será posible *enviar esos datos que te tienen dudando*, y nuestro equipo _verificará si son ciertos_ o _te quieren ver la cara_ 🤡',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 1000,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'cebd20089692c409abc6c8f0135c7708'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_429752e7-be5d-409e-b54f-75cf55796f11',
-  keyword: 'ans_a05df7a0-343c-4c4e-933a-0b192ff92d37',
-  answer: '➡ Podrás sugerirnos temas que quieres que investiguemos',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 1000,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '968eeae613591086b4f5e02d486fa510'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_64ac5b26-510b-4d73-b546-f4227cf7996d',
-  keyword: 'ans_429752e7-be5d-409e-b54f-75cf55796f11',
-  answer: '➡ Y tendrás la oportunidad de hacer nuestro *curso exprés* para que estés preparado para *combatir la desinformación* y seas un *#HeroeXLaInformación* 🦸🏻‍♂🦸🏽‍♀',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 1000,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '9a3426dde5bfaf0fd7c1e0d2af10cbe3'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_072092ee-71ad-40ff-9967-88b353af60f5',
-  keyword: 'ans_64ac5b26-510b-4d73-b546-f4227cf7996d',
-  answer: '🤖 ¿En qué podemos ayudarte? Escribe *República* para ver las opciones',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 1000,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '6ba151df3875b77cec5ce2d39368d507'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '584243573119@s.whatsapp.net',
-    fromMe: false,
-    id: '13342501B92601C4975F41758204C2A7',
-    participant: undefined
-  },
-  messageTimestamp: 1720582452,
-  pushName: 'Andrés Torres',
-  broadcast: false,
-  message: Message {
-    conversation: 'República',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'República',
-  from: '584243573119'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '584243573119@s.whatsapp.net',
-    fromMe: false,
-    id: '60A0DB83DB851508E38CBE1F37AD5757',
-    participant: undefined
-  },
-  messageTimestamp: 1720582461,
-  pushName: 'Andrés Torres',
-  broadcast: false,
-  message: Message {
-    conversation: '1',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '1',
-  from: '584243573119'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '584243573119@s.whatsapp.net',
-    fromMe: false,
-    id: '187E86E53D20777AA986D64CBD4CCE7A',
-    participant: undefined
-  },
-  messageTimestamp: 1720582464,
-  pushName: 'Andrés Torres',
-  broadcast: false,
-  message: Message {
-    conversation: 'Sí',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Sí',
-  from: '584243573119'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '584243573119@s.whatsapp.net',
-    fromMe: false,
-    id: '9E0592E6458A85FCC362C43CD5555965',
-    participant: undefined
-  },
-  messageTimestamp: 1720582468,
-  pushName: 'Andrés Torres',
-  broadcast: false,
-  message: Message {
-    conversation: '1',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '1',
-  from: '584243573119'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '584243573119@s.whatsapp.net',
-    fromMe: false,
-    id: '6F32A37882DA972E9A728D4245F490B7',
-    participant: undefined
-  },
-  messageTimestamp: 1720582471,
-  pushName: 'Andrés Torres',
-  broadcast: false,
-  message: Message {
-    conversation: 'Sí',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Sí',
-  from: '584243573119'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '12177233966@s.whatsapp.net',
-    fromMe: false,
-    id: '3A8BEACEE02B251FBEA0',
-    participant: undefined
-  },
-  messageTimestamp: 1720582891,
-  pushName: 'Ayrton',
-  broadcast: false,
-  message: Message {
-    conversation: 'Ggg',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Ggg',
-  from: '12177233966'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '12177233966@s.whatsapp.net',
-    fromMe: false,
-    id: '3A12F006642C13017DB8',
-    participant: undefined
-  },
-  messageTimestamp: 1720582900,
-  pushName: 'Ayrton',
-  broadcast: false,
-  message: Message {
-    videoMessage: VideoMessage {
-      interactiveAnnotations: [],
-      url: 'https://mmg.whatsapp.net/o1/v/t62.9505-24/f1/m232/up-oil-gif-82de0b07-c164-4443-8a73-0e780e3e0989?ccb=9-4&oh=01_Q5AaIJCj2_sb6xTdY2_pv5vdtwOaqYS7M_3rgsvrpxWSKjfR&oe=66B58E97&_nc_sid=000000&mms3=true',
-      mimetype: 'video/mp4',
-      fileSha256: [Uint8Array],
-      fileLength: [Long],
-      seconds: 3,
-      mediaKey: [Uint8Array],
-      gifPlayback: true,
-      height: 480,
-      width: 368,
-      fileEncSha256: [Uint8Array],
-      directPath: '/o1/v/t62.9505-24/f1/m232/up-oil-gif-82de0b07-c164-4443-8a73-0e780e3e0989?ccb=9-4&oh=01_Q5AaIJCj2_sb6xTdY2_pv5vdtwOaqYS7M_3rgsvrpxWSKjfR&oe=66B58E97&_nc_sid=000000',
-      mediaKeyTimestamp: [Long],
-      jpegThumbnail: [Uint8Array],
-      streamingSidecar: [Uint8Array],
-      gifAttribution: 2
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '_event_media__3ea0834f-86d6-4839-9a1b-abbfeacfe964',
-  from: '12177233966'
 }

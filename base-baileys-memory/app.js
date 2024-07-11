@@ -1,7 +1,9 @@
+require('dotenv').config();
+
 const { createBot, createProvider, createFlow, addKeyword, EVENTS } = require('@bot-whatsapp/bot');
 const QRPortalWeb = require('@bot-whatsapp/portal');
 const BaileysProvider = require('@bot-whatsapp/provider/baileys');
-const MockAdapter = require('@bot-whatsapp/database/mock');
+const MongoAdapter = require('@bot-whatsapp/database/mongo');
 const path = require("path");
 const fs = require("fs");
 
@@ -16,11 +18,11 @@ const menuPath = path.join(mensajesDir, "Republica.txt");
 const menu = fs.readFileSync(menuPath, "utf8");
 
 const flowInicio = addKeyword(['datavenger', 'Datavenger', 'DATAVENGER', 'DataAvenger'])
-    .addAnswer('🙌 ¡Hola! Bienvenido al *Datavenger* 🦸🏽‍♀🦸🏻‍♂ de la *República TV*', { delay: 1000 })
-    .addAnswer('Nuestro objetivo es garantizar el *libre*, *verídico* y *confiable* acceso a la información ✅', { delay: 1000 })
-    .addAnswer('➡ Será posible *enviar esos datos que te tienen dudando*, y nuestro equipo _verificará si son ciertos_ o _te quieren ver la cara_ 🤡', { delay: 1000 })
-    .addAnswer('➡ Podrás sugerirnos temas que quieres que investiguemos', { delay: 1000 })
-    .addAnswer('➡ Y tendrás la oportunidad de hacer nuestro *curso exprés* para que estés preparado para *combatir la desinformación* y seas un *#HeroeXLaInformación* 🦸🏻‍♂🦸🏽‍♀', { delay: 1000 })
+    .addAnswer('🙌 ¡Hola! Soy DatAvenger🦸🏽‍♀🦸🏻‍♂, tu aliado contra la desinformación creado por La República TV', { delay: 1000 })
+    .addAnswer('Mi misión es garantizarte un libre, verídico y confiable acceso a la información pública ✅', { delay: 1000 })
+    .addAnswer('➡ Acá podrás enviar esos datos que te tienen dudando, y nuestro equipo verificará si son ciertos o te quieren ver la cara 🤡', { delay: 1000 })
+    .addAnswer('➡También podrás sugerirme temas que quieres que investigue ', { delay: 1000 })
+    .addAnswer('➡ Y además tendrás la oportunidad de hacer el curso express para combatir la desinformación y convertirte en un #HeroeXLaInformación 🦸🏻‍♂🦸🏽‍♀', { delay: 1000 })
     .addAnswer('🤖 ¿En qué podemos ayudarte? Escribe *República* para ver las opciones', { delay: 1000, capture: true }, async (ctx, { gotoFlow }) => {
         if (['republica', 'república', 'República', 'Republica', 'REPÚBLICA', 'rEPÚBLICA', 'rEPUBLICA', 'REPUBLICA'].includes(ctx.body.toLowerCase())) {
             return gotoFlow(flowMenu);
@@ -50,8 +52,6 @@ const flowMenu = addKeyword(EVENTS.ACTION).addAnswer(
     }
 );
 
-
-
 const flowInvestiga = addKeyword(EVENTS.ACTION)
     .addAnswer('prueba investiga', { capture: false }, async (ctx, { gotoFlow }) => {
         return gotoFlow(flowMenu);
@@ -66,7 +66,6 @@ const flowRedes = addKeyword(EVENTS.ACTION)
     .addAnswer('prueba redes', { capture: false }, async (ctx, { gotoFlow }) => {
         return gotoFlow(flowMenu);
     });
-
 
 const flowCierre = addKeyword(EVENTS.ACTION)
     .addAnswer('prueba ¡chao!', { capture: true }, async (ctx, { gotoFlow }) => {
@@ -115,7 +114,6 @@ function isNoResponse(response) {
     const noResponses = ['no', 'NO', 'No', '2'];
     return noResponses.includes(response);
 }
-
 
 const flowCurso3 = addKeyword(EVENTS.ACTION)
     .addAnswer(readMessage('Test3.txt'), { capture: true }, async (ctx, { flowDynamic, gotoFlow }) => {
@@ -174,7 +172,14 @@ const flowCursoFinal = addKeyword(EVENTS.ACTION)
     });
 
 const main = async () => {
-    const adapterDB = new MockAdapter();
+
+    const adapterDB = new MongoAdapter({
+        dbUri: process.env.MONGO_DB_URI,
+        dbName: "Mensajes",
+        options: {
+            tlsInsecure: true, 
+        }
+    });
     const adapterFlow = createFlow([flowInicio, flowMenu, flowCurso, flowInvestiga, flowBoletin, flowRedes, flowCierre]);
     const adapterProvider = createProvider(BaileysProvider);
 
@@ -188,7 +193,3 @@ const main = async () => {
 };
 
 main();
-
-
-
-
