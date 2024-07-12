@@ -22,8 +22,9 @@
         "wa-sticker-formatter": "4.4.4"
     },
     "devDependencies": {
-        "eslint": "^8.52.0",
-        "eslint-plugin-bot-whatsapp": "latest"
+        "eslint": "^9.6.0",
+        "eslint-plugin-bot-whatsapp": "latest",
+        "globals": "^15.8.0"
     },
     "author": "",
     "license": "ISC"
