@@ -217,7 +217,7 @@ const flowMenu = addKeyword([
     }
 );
 
-const flowInicio = addKeyword(['datavenger', 'Datavenger', 'DATAVENGER', 'DatAvenger, DataAvenger, dataavenger, Dataavenger, dataAvenger'])
+const flowInicio = addKeyword(['datavenger', 'Datavenger', 'DATAVENGER', 'DatAvenger, DataAvenger, dataavenger, Dataavenger, dataAvenger, hola, HOLA, Hola, hOLA, Hola DatAvenger 🦸🏻‍♂🦸🏽 me gustaría unirme a la liga de #HeroesXLaInformacion'])
     .addAnswer('🙌 ¡Hola! Soy *DatAvenger*🦸🏽‍♀🦸🏻‍♂, tu aliado contra la desinformación creado por *La RepúblicaTV*', { delay: 2000 })
     .addAnswer('Mi misión es garantizarte un *libre, verídico y confiable* _acceso a la información pública_ ✅', { delay: 2000 })
     .addAnswer('➡ Acá podrás *enviar esos datos que te tienen dudando*, y nuestro equipo verificará si son ciertos o te quieren ver la cara 🤡', { delay: 2000 })
